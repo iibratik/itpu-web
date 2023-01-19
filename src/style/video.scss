@@ -43,13 +43,17 @@
     flex-grow: 1;
   }
 
-  &__play i {
-    font-size: 60px;
-    color: $wht;
-    background: $blu;
-    padding: 44px 50px 44px 60px;
+  &__play {
     border-radius: 100%;
-    transition: all 0.3s;
+
+    & i {
+      font-size: 60px;
+      color: $wht;
+      background: $blu;
+      padding: 44px 50px 44px 60px;
+      border-radius: 100%;
+      transition: all 0.3s;
+    }
 
     &:hover {
       color: $blu;

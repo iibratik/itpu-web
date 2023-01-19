@@ -8,7 +8,7 @@
     "lint": "stylelint \"**/*.scss\" --fix",
     "format:scss": "prettier --write src/style/",
     "compile": "sass src/style/styles.scss src/postcss/styles.css --no-source-map",
-    "prod": "postcss src/css/ --dir src/postcss/"
+    "prod": "postcss src/postcss/ --dir src/postcss/"
   },
   "repository": {
     "type": "git",

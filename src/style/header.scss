@@ -1,7 +1,5 @@
 .header {
-  /* stylelint-disable */
-  background: "../assets/img/header_bg.png";
-  /* stylelint-enable */
+  background: url("../assets/img/header_bg.png");
   background-size: cover;
   display: flex;
   height: 100vh;
