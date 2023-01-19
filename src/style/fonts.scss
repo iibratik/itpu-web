@@ -1,11 +1,27 @@
+/* stylelint-disable */
 @font-face {
-    font-family: 'SourceSansPro-Regular';
-    src: url('../src/assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
-    font-style: normal;
-    font-weight: normal;
+  font-family: SourceSansPro-Regular;
+  src: "../assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf";
+  font-style: normal;
+  font-weight: normal;
 }
+
 @font-face {
-    font-family: 'SourceSansPro-SemiBold';
-    src: url('../src/assets/fonts/Source_Sans_Pro/ourceSansPro-SemiBold.ttf');
-    font-weight: 600;
+  font-family: SourceSansPro-SemiBold;
+  src: "../assets/fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf";
+  font-weight: 600;
 }
+
+@font-face {
+  font-family: Oswald-Regular;
+  src: "../assets/fonts/Oswald/Oswald-Regular.ttf";
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Oswald-Bold;
+  src: "../assets/fonts/Oswald/Oswald-Bold.ttf";
+  font-weight: 700;
+}
+/* stylelint-enable */
